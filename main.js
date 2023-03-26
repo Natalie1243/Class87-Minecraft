@@ -45,7 +45,7 @@ function my_keydown(e)
     console.log(keyPressed);
     if(e.shiftKey == true && keyPressed == '80')
     {
-        console.log("p and shift pressed together");
+        console.log("e and shift pressed together");
         block_image_width = block_image_width +10;
         block_image_height = block_image_height +10;
         document.getElementById("current_width").innterHTML = block_image_width;
@@ -116,14 +116,9 @@ function my_keydown(e)
         new_image('dark_green.png');
         console.log("d");
     }
-    if(keyPressed == '85')
-    {
-        new_image('different.png');
-        console.log("u");
-    }
     if(keyPressed == '67')
     {
-        new_image('cloud.png')
+        new_image('cloud.jpg')
         console.log("c");
     }
 
